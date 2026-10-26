@@ -3,7 +3,7 @@
   "id": "envyworld",
   "version": "${version}",
   "name": "Envyworld Panel",
-  "description": "Панель модерации Envyworld: наказания, макросы, предметы, логи и инструменты наблюдателя.",
+  "description": "Клиентская панель для play.envyworld.gg, сделанная под KLVoice в KLauncher: наказания, макросы, предметы, логи и инструменты наблюдателя.",
   "authors": [
     "Bodyaha-Sobolev"
   ],

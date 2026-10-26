@@ -9,7 +9,14 @@ Envyworld-Panel/
 │       └── build.yml
 ├── docs/
 │   ├── images/
-│   │   └── menu.png
+│   │   ├── item-editor.png
+│   │   ├── items.png
+│   │   ├── logs.png
+│   │   ├── macros.png
+│   │   ├── menu.png
+│   │   ├── online.png
+│   │   ├── profile.png
+│   │   └── rules.png
 │   ├── ARCHITECTURE.md
 │   └── PROJECT_TREE.md
 ├── gradle/
@@ -409,4 +416,4 @@ Envyworld-Panel/
 └── THIRD_PARTY_NOTICES.md
 ```
 
-Всего файлов: 344.
+Всего файлов: 351.
