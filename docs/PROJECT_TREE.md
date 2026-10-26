@@ -174,6 +174,25 @@ Envyworld-Panel/
 │       │           │   ├── ItemOptions.java
 │       │           │   ├── ItemText.java
 │       │           │   └── PresetExchange.java
+│       │           ├── logs/
+│       │           │   ├── ChatFilter.java
+│       │           │   ├── ChatPunishmentParser.java
+│       │           │   ├── LogQueryCache.java
+│       │           │   ├── NewLogTracker.java
+│       │           │   ├── NotificationReconciler.java
+│       │           │   ├── OnlineScanner.java
+│       │           │   ├── OnlineWatch.java
+│       │           │   ├── PunishLogClient.java
+│       │           │   ├── PunishmentClock.java
+│       │           │   ├── PunishNotify.java
+│       │           │   ├── ServerModes.java
+│       │           │   ├── SessionChat.java
+│       │           │   ├── SessionState.java
+│       │           │   ├── TelegramAlert.java
+│       │           │   ├── TelegramAuth.java
+│       │           │   ├── TelegramMultipart.java
+│       │           │   ├── TelegramNotify.java
+│       │           │   └── TelegramPanel.java
 │       │           ├── mixin/
 │       │           │   ├── BossHealthOverlayAccessor.java
 │       │           │   ├── ClientPacketListenerMixin.java
@@ -353,8 +372,22 @@ Envyworld-Panel/
 │   │       ├── client/
 │   │       │   └── gui/
 │   │       │       └── SkinLookupSmokeTest.java
-│   │       └── items/
-│   │           └── CatalogItemSmoke.java
+│   │       ├── items/
+│   │       │   └── CatalogItemSmoke.java
+│   │       └── logs/
+│   │           ├── BurstBudgetSmoke.java
+│   │           ├── FreezeGuardSmoke.java
+│   │           ├── LifecycleLayoutSmoke.java
+│   │           ├── LogCacheSmokeTest.java
+│   │           ├── ModerationOverlaySmoke.java
+│   │           ├── NotificationReconcileSmoke.java
+│   │           ├── PanelAndSequenceSmoke.java
+│   │           ├── ProfileChecksSmoke.java
+│   │           ├── ProjectionSmoke.java
+│   │           ├── RenderContextSmoke.java
+│   │           ├── ScoreboardRankSmoke.java
+│   │           ├── TelegramAuthSmoke.java
+│   │           └── UiBehaviorSmokeTest.java
 │   ├── audit_release.py
 │   ├── CleanUiProbe.java
 │   ├── clipboard-smoke.gradle
@@ -376,4 +409,4 @@ Envyworld-Panel/
 └── THIRD_PARTY_NOTICES.md
 ```
 
-Всего файлов: 313.
+Всего файлов: 344.

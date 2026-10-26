@@ -1,12 +1,12 @@
 # Build and local runs
-.gradle/
-build/
-out/
-classes/
-run/
-logs/
-remappedSrc/
-.fabric/
+/.gradle/
+/build/
+/out/
+/classes/
+/run/
+/logs/
+/remappedSrc/
+/.fabric/
 
 # Editors
 .idea/
