@@ -1,0 +1,8 @@
+{
+  "key.envyworld.menu": "Меню EnvyWorld",
+  "key.envyworld.macro": "Запустить макрос предмета",
+  "key.envyworld.inspect": "Проверки IP над неймтегом",
+  "key.envyworld.dupeip": "Проверить /dupeip игрока под прицелом",
+  "key.envyworld.iphistory": "Проверить /iphistory игрока под прицелом",
+  "key.envyworld.target_profile": "Открыть профиль игрока под прицелом"
+}

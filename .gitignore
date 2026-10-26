@@ -1,0 +1,42 @@
+# Build and local runs
+.gradle/
+build/
+out/
+classes/
+run/
+logs/
+remappedSrc/
+.fabric/
+
+# Editors
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Local settings, exports and credentials
+/config/
+/exports/
+.env
+.env.*
+*.local
+**/telegram-private.json
+**/chat-history/
+**/session-chat/
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
+*.stage
+
+# Dependencies are resolved by Gradle
+/libs/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini

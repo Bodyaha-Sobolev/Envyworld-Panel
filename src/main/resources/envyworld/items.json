@@ -1,0 +1,110 @@
+[
+  {
+    "id": "default_emerald",
+    "name": "Изумрудная палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Редкий предмет EnvyWorld|Модель: изумруд",
+    "enchantments": "unbreaking:3",
+    "model": 1,
+    "count": 1,
+    "color": "GREEN",
+    "unbreakable": true,
+    "glint": true
+  },
+  {
+    "id": "default_amethyst",
+    "name": "Аметистовая палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Фиолетовая энергия|Модель: аметист",
+    "enchantments": "unbreaking:3",
+    "model": 2,
+    "count": 1,
+    "color": "LIGHT_PURPLE",
+    "unbreakable": true,
+    "glint": true
+  },
+  {
+    "id": "default_fire",
+    "name": "Огненная палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Пылает в руке|Модель: огонь",
+    "enchantments": "fire_aspect:2, unbreaking:3",
+    "model": 3,
+    "count": 1,
+    "color": "GOLD",
+    "unbreakable": false,
+    "glint": true
+  },
+  {
+    "id": "default_ice",
+    "name": "Ледяная палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Холодный удар|Модель: лёд",
+    "enchantments": "sharpness:2, unbreaking:3",
+    "model": 4,
+    "count": 1,
+    "color": "AQUA",
+    "unbreakable": false,
+    "glint": true
+  },
+  {
+    "id": "default_gold",
+    "name": "Золотая палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Блестит на солнце|Модель: золото",
+    "enchantments": "fortune:3, unbreaking:3",
+    "model": 5,
+    "count": 1,
+    "color": "GOLD",
+    "unbreakable": false,
+    "glint": true
+  },
+  {
+    "id": "default_blood",
+    "name": "Кровавая палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Следы древних битв|Модель: кровь",
+    "enchantments": "sharpness:3, unbreaking:3",
+    "model": 6,
+    "count": 1,
+    "color": "RED",
+    "unbreakable": false,
+    "glint": true
+  },
+  {
+    "id": "default_ender",
+    "name": "Эндер-палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Шёпот Края|Модель: эндер",
+    "enchantments": "mending:1, unbreaking:3",
+    "model": 7,
+    "count": 1,
+    "color": "LIGHT_PURPLE",
+    "unbreakable": false,
+    "glint": true
+  },
+  {
+    "id": "default_rainbow",
+    "name": "Радужная палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Все цвета EnvyWorld|Модель: радуга",
+    "enchantments": "unbreaking:3, mending:1",
+    "model": 8,
+    "count": 1,
+    "color": "LIGHT_PURPLE",
+    "unbreakable": false,
+    "glint": true
+  },
+  {
+    "id": "default_netherite",
+    "name": "Незеритовая палка",
+    "baseItem": "minecraft:stick",
+    "lore": "Тяжёлая и прочная|Модель: незерит",
+    "enchantments": "sharpness:5, unbreaking:3",
+    "model": 9,
+    "count": 1,
+    "color": "DARK_GRAY",
+    "unbreakable": true,
+    "glint": true
+  }
+]

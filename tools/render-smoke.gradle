@@ -1,0 +1,25 @@
+allprojects {
+    afterEvaluate {
+        if (tasks.findByName('renderSmokeTest') != null) return
+        tasks.register('renderSmokeTest', JavaExec) {
+            dependsOn tasks.named('classes')
+            classpath = sourceSets.main.runtimeClasspath
+            mainClass = file('tools/RendererSmokeTest.java').absolutePath
+            jvmArgs '--enable-native-access=ALL-UNNAMED'
+            workingDir = projectDir
+        }
+        def smokeClasses = layout.buildDirectory.dir('verification/test-classes')
+        tasks.register('compileLogSmokeTest', JavaCompile) {
+            dependsOn tasks.named('classes')
+            source = fileTree('tools/com') { include '**/*.java' }
+            classpath = sourceSets.main.runtimeClasspath
+            destinationDirectory = smokeClasses
+        }
+        tasks.register('logCacheSmokeTest', JavaExec) {
+            dependsOn tasks.named('compileLogSmokeTest')
+            classpath = sourceSets.main.runtimeClasspath + files(smokeClasses)
+            mainClass = 'com.envyworld.logs.LogCacheSmokeTest'
+            workingDir = projectDir
+        }
+    }
+}

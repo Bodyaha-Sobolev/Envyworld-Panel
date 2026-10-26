@@ -1,0 +1,18 @@
+allprojects {
+    afterEvaluate {
+        if (tasks.findByName('compileItemSmoke') != null) return
+        def itemSmokeClasses = layout.buildDirectory.dir('verification/item-test-classes')
+        tasks.register('compileItemSmoke', JavaCompile) {
+            dependsOn tasks.named('classes')
+            source = files('tools/com/envyworld/items/CatalogItemSmoke.java')
+            classpath = sourceSets.main.runtimeClasspath
+            destinationDirectory = itemSmokeClasses
+        }
+        tasks.register('catalogItemSmoke', JavaExec) {
+            dependsOn tasks.named('compileItemSmoke')
+            classpath = sourceSets.main.runtimeClasspath + files(itemSmokeClasses)
+            mainClass = 'com.envyworld.items.CatalogItemSmoke'
+            workingDir = projectDir
+        }
+    }
+}

@@ -1,0 +1,6944 @@
+[
+  {
+    "id": "player",
+    "code": "player",
+    "name": "Игрок",
+    "kind": "player",
+    "color": "#A0A0B0",
+    "price": "бесплатно",
+    "keywords": [
+      "игрок",
+      "player",
+      "default",
+      "обычный"
+    ],
+    "signature": [
+      "spawn",
+      "home",
+      "tpa",
+      "msg",
+      "pay",
+      "ah",
+      "shop"
+    ],
+    "tier": -1,
+    "own": [
+      {
+        "command": "/spawn",
+        "args": "",
+        "description": "Телепорт на спавн",
+        "group": "Основное"
+      },
+      {
+        "command": "/home",
+        "args": "",
+        "description": "Телепорт к своей точке дома",
+        "group": "Основное"
+      },
+      {
+        "command": "/sethome",
+        "args": "",
+        "description": "Установить точку дома",
+        "group": "Основное"
+      },
+      {
+        "command": "/tpa",
+        "args": "[ник]",
+        "description": "Запрос телепорта к игроку",
+        "group": "Основное"
+      },
+      {
+        "command": "/tpaccept",
+        "args": "",
+        "description": "Принять телепорт",
+        "group": "Основное"
+      },
+      {
+        "command": "/msg",
+        "args": "[ник] [сообщение]",
+        "description": "Личное сообщение",
+        "group": "Чат"
+      },
+      {
+        "command": "/r",
+        "args": "[сообщение]",
+        "description": "Ответить на личное сообщение",
+        "group": "Чат"
+      },
+      {
+        "command": "/pay",
+        "args": "[ник] [сумма]",
+        "description": "Перевести деньги",
+        "group": "Экономика"
+      },
+      {
+        "command": "/ah",
+        "args": "",
+        "description": "Аукцион",
+        "group": "Экономика"
+      },
+      {
+        "command": "/shop",
+        "args": "",
+        "description": "Магазин",
+        "group": "Экономика"
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "Список наборов",
+        "group": "Наборы"
+      },
+      {
+        "command": "/warp",
+        "args": "",
+        "description": "Список варпов",
+        "group": "Телепорты"
+      },
+      {
+        "command": "/list",
+        "args": "",
+        "description": "Список игроков онлайн",
+        "group": "Основное"
+      },
+      {
+        "command": "/ping",
+        "args": "",
+        "description": "Проверить пинг",
+        "group": "Основное"
+      },
+      {
+        "command": "/help",
+        "args": "",
+        "description": "Помощь по командам",
+        "group": "Основное"
+      }
+    ],
+    "commands": [
+      {
+        "command": "/spawn",
+        "args": "",
+        "description": "Телепорт на спавн",
+        "group": "Основное"
+      },
+      {
+        "command": "/home",
+        "args": "",
+        "description": "Телепорт к своей точке дома",
+        "group": "Основное"
+      },
+      {
+        "command": "/sethome",
+        "args": "",
+        "description": "Установить точку дома",
+        "group": "Основное"
+      },
+      {
+        "command": "/tpa",
+        "args": "[ник]",
+        "description": "Запрос телепорта к игроку",
+        "group": "Основное"
+      },
+      {
+        "command": "/tpaccept",
+        "args": "",
+        "description": "Принять телепорт",
+        "group": "Основное"
+      },
+      {
+        "command": "/msg",
+        "args": "[ник] [сообщение]",
+        "description": "Личное сообщение",
+        "group": "Чат"
+      },
+      {
+        "command": "/r",
+        "args": "[сообщение]",
+        "description": "Ответить на личное сообщение",
+        "group": "Чат"
+      },
+      {
+        "command": "/pay",
+        "args": "[ник] [сумма]",
+        "description": "Перевести деньги",
+        "group": "Экономика"
+      },
+      {
+        "command": "/ah",
+        "args": "",
+        "description": "Аукцион",
+        "group": "Экономика"
+      },
+      {
+        "command": "/shop",
+        "args": "",
+        "description": "Магазин",
+        "group": "Экономика"
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "Список наборов",
+        "group": "Наборы"
+      },
+      {
+        "command": "/warp",
+        "args": "",
+        "description": "Список варпов",
+        "group": "Телепорты"
+      },
+      {
+        "command": "/list",
+        "args": "",
+        "description": "Список игроков онлайн",
+        "group": "Основное"
+      },
+      {
+        "command": "/ping",
+        "args": "",
+        "description": "Проверить пинг",
+        "group": "Основное"
+      },
+      {
+        "command": "/help",
+        "args": "",
+        "description": "Помощь по командам",
+        "group": "Основное"
+      }
+    ],
+    "perks": [
+      "Базовые команды сервера"
+    ]
+  },
+  {
+    "id": "envypremium",
+    "code": "envypremium",
+    "name": "EnvyPremium",
+    "kind": "premium",
+    "color": "#4AC8FF",
+    "price": "249 ₽/мес",
+    "keywords": [
+      "envy premium",
+      "envypremium",
+      "premium",
+      "премиум",
+      "EnvyPremium"
+    ],
+    "own": [
+      {
+        "command": "/arrow",
+        "args": "[стрелочка]",
+        "description": "Изменить стрелочку в чате.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/glow",
+        "args": "",
+        "description": "Включить обводку.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/jump",
+        "args": "",
+        "description": "Прыгнуть как деКРОЛик.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/tpo",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку с выключенными телепортациями.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/tpos",
+        "args": "[ник]",
+        "description": "Телепортировать игрока с выключенными телепортациями к себе.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/img",
+        "args": "",
+        "description": "Создание картинок по ссылке.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/near",
+        "args": "",
+        "description": "Узнать кто находится поблизости.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/co",
+        "args": "",
+        "description": "i Узнать кто поставил блок.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/protect",
+        "args": "[регион]",
+        "description": "Защитить регион от донатеров.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/sit",
+        "args": "",
+        "description": "Сидеть, лежать и ползти.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/lay",
+        "args": "",
+        "description": "Сидеть, лежать и ползти.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/crawl",
+        "args": "",
+        "description": "Сидеть, лежать и ползти.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/gadgets",
+        "args": "",
+        "description": "Открыть гаджеты.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/titles",
+        "args": "",
+        "description": "Установить титул.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/colors",
+        "args": "[цвет]",
+        "description": "Установить цвет чата.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/nick",
+        "args": "[ник] [цвет]",
+        "description": "Сменить цвет ника.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/glow",
+        "args": "",
+        "description": "Включить обводку.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить временный режим полёта.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Дополнительные команды на ОдинБлок.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/invsee",
+        "args": "",
+        "description": "Дополнительные команды на ОдинБлок.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Дополнительные команды на ОдинБлок.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/fix",
+        "args": "",
+        "description": "Дополнительные команды на ОдинБлок.",
+        "group": "Мини-Игры:"
+      }
+    ],
+    "perks": [
+      "Значок Envy в табе с клаунчера.",
+      "Приоритетная сортировка в табе.",
+      "Увеличенная дистанция просмотра: доступно 15 чанков.",
+      "Можно писать в чат в лобби.",
+      "Вход на заполненный сервер.",
+      "Доступны все категории косметики.",
+      "Доступны донатерские наборы на КитПВП.",
+      "Приоритетная и быстрая поддержка.",
+      "Можно писать цветными сообщениями в чат.",
+      "Никто не сможет вас крашнуть или довести до слёз.",
+      "Доступно 9 слотов на аукционе ОдинБлок.",
+      "Доступна 5 скорость бега/полёта."
+    ],
+    "commands": [
+      {
+        "command": "/arrow",
+        "args": "[стрелочка]",
+        "description": "Изменить стрелочку в чате.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/glow",
+        "args": "",
+        "description": "Включить обводку.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/jump",
+        "args": "",
+        "description": "Прыгнуть как деКРОЛик.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/tpo",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку с выключенными телепортациями.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/tpos",
+        "args": "[ник]",
+        "description": "Телепортировать игрока с выключенными телепортациями к себе.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/img",
+        "args": "",
+        "description": "Создание картинок по ссылке.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/near",
+        "args": "",
+        "description": "Узнать кто находится поблизости.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/co",
+        "args": "",
+        "description": "i Узнать кто поставил блок.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/protect",
+        "args": "[регион]",
+        "description": "Защитить регион от донатеров.",
+        "group": "Выживания:"
+      },
+      {
+        "command": "/sit",
+        "args": "",
+        "description": "Сидеть, лежать и ползти.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/lay",
+        "args": "",
+        "description": "Сидеть, лежать и ползти.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/crawl",
+        "args": "",
+        "description": "Сидеть, лежать и ползти.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/gadgets",
+        "args": "",
+        "description": "Открыть гаджеты.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/titles",
+        "args": "",
+        "description": "Установить титул.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/colors",
+        "args": "[цвет]",
+        "description": "Установить цвет чата.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/nick",
+        "args": "[ник] [цвет]",
+        "description": "Сменить цвет ника.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/glow",
+        "args": "",
+        "description": "Включить обводку.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить временный режим полёта.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Дополнительные команды на ОдинБлок.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/invsee",
+        "args": "",
+        "description": "Дополнительные команды на ОдинБлок.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Дополнительные команды на ОдинБлок.",
+        "group": "Мини-Игры:"
+      },
+      {
+        "command": "/fix",
+        "args": "",
+        "description": "Дополнительные команды на ОдинБлок.",
+        "group": "Мини-Игры:"
+      }
+    ],
+    "signature": [
+      "arrow",
+      "co",
+      "colors",
+      "crawl",
+      "echest,",
+      "fix",
+      "fly",
+      "gadgets",
+      "glow",
+      "hat",
+      "heal,",
+      "img",
+      "invsee,",
+      "jump",
+      "lay",
+      "near",
+      "nick",
+      "protect",
+      "sit",
+      "titles",
+      "tpo",
+      "tpos"
+    ],
+    "tier": 0,
+    "commandsByMode": {
+      "survival": [
+        "arrow",
+        "co",
+        "glow",
+        "img",
+        "jump",
+        "near",
+        "protect",
+        "tpo",
+        "tpos"
+      ],
+      "minigames": [
+        "colors",
+        "crawl",
+        "fly",
+        "gadgets",
+        "glow",
+        "hat",
+        "lay",
+        "nick",
+        "sit",
+        "titles"
+      ],
+      "oneblock": [
+        "colors",
+        "crawl",
+        "echest",
+        "fix",
+        "fly",
+        "gadgets",
+        "glow",
+        "hat",
+        "heal",
+        "invsee",
+        "lay",
+        "nick",
+        "sit",
+        "titles"
+      ]
+    },
+    "signaturesByMode": {
+      "survival": [
+        "arrow",
+        "co",
+        "glow",
+        "img",
+        "jump",
+        "near",
+        "protect",
+        "tpo",
+        "tpos"
+      ],
+      "minigames": [
+        "colors",
+        "crawl",
+        "fly",
+        "gadgets",
+        "glow",
+        "hat",
+        "lay",
+        "nick",
+        "sit",
+        "titles"
+      ],
+      "oneblock": [
+        "colors",
+        "crawl",
+        "echest",
+        "fix",
+        "fly",
+        "gadgets",
+        "glow",
+        "hat",
+        "heal",
+        "invsee",
+        "lay",
+        "nick",
+        "sit",
+        "titles"
+      ]
+    }
+  },
+  {
+    "id": "vip",
+    "code": "vip",
+    "name": "Вип",
+    "kind": "donation",
+    "color": "#4AFF8C",
+    "price": "99 ₽/мес",
+    "keywords": [
+      "vip",
+      "вип",
+      "Вип"
+    ],
+    "own": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 3 региона и точки дома.",
+      "Максимальный размер региона 1.500.000 блоков.",
+      "Доступно +5 флагов в регионе."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "compact",
+      "craft",
+      "dye",
+      "echest",
+      "enchant",
+      "feed",
+      "fix",
+      "fly",
+      "god",
+      "heal",
+      "kit",
+      "mobs",
+      "trash"
+    ],
+    "tier": 1,
+    "commandsByMode": {
+      "survival": [
+        "compact",
+        "craft",
+        "dye",
+        "echest",
+        "enchant",
+        "feed",
+        "fix",
+        "fly",
+        "god",
+        "heal",
+        "kit",
+        "mobs",
+        "trash"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "compact",
+        "craft",
+        "dye",
+        "enchant",
+        "fix",
+        "kit",
+        "mobs",
+        "trash"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "elite",
+    "code": "elite",
+    "name": "Элита",
+    "kind": "donation",
+    "color": "#4AC8FF",
+    "price": "159 ₽/мес",
+    "keywords": [
+      "elite",
+      "элита",
+      "элит",
+      "Элита"
+    ],
+    "own": [
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 5 регионов и точек дома.",
+      "Максимальный размер региона 3.000.000 блоков.",
+      "Доступно 7 слотов на аукционе."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "delwarp",
+      "exp",
+      "gm",
+      "id",
+      "ptime",
+      "s",
+      "seen",
+      "setwarp",
+      "top",
+      "tp",
+      "tppos"
+    ],
+    "tier": 2,
+    "commandsByMode": {
+      "survival": [
+        "compact",
+        "craft",
+        "delwarp",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "feed",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "heal",
+        "id",
+        "kit",
+        "mobs",
+        "ptime",
+        "s",
+        "seen",
+        "setwarp",
+        "top",
+        "tp",
+        "tppos",
+        "trash"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "delwarp",
+        "exp",
+        "id",
+        "ptime",
+        "s",
+        "seen",
+        "setwarp",
+        "top",
+        "tp",
+        "tppos"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "inkvisitor",
+    "code": "inkvisitor",
+    "name": "Инквизитор",
+    "kind": "donation",
+    "color": "#C480FF",
+    "price": "259 ₽/мес",
+    "keywords": [
+      "inquisitor",
+      "inkvisitor",
+      "инквизитор",
+      "инкв",
+      "Инквизитор"
+    ],
+    "own": [
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 7 регионов и точек дома.",
+      "Максимальный размер региона 4.000.000 блоков.",
+      "Доступ к Головам и Флагам в косметике."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      },
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "bc",
+      "ci",
+      "echest",
+      "fireball",
+      "invsee",
+      "replace",
+      "set",
+      "spawn",
+      "speed",
+      "undo",
+      "walls"
+    ],
+    "tier": 3,
+    "commandsByMode": {
+      "survival": [
+        "bc",
+        "ci",
+        "compact",
+        "craft",
+        "delwarp",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "feed",
+        "fireball",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "heal",
+        "id",
+        "invsee",
+        "kit",
+        "mobs",
+        "ptime",
+        "replace",
+        "s",
+        "seen",
+        "set",
+        "setwarp",
+        "spawn",
+        "speed",
+        "top",
+        "tp",
+        "tppos",
+        "trash",
+        "undo",
+        "walls"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "bc",
+        "ci",
+        "fireball",
+        "replace",
+        "set",
+        "spawn",
+        "undo",
+        "walls"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "burjui",
+    "code": "burjui",
+    "name": "Буржуй",
+    "kind": "donation",
+    "color": "#FFB84A",
+    "price": "399 ₽/мес",
+    "keywords": [
+      "bourgeois",
+      "burjui",
+      "буржуй",
+      "буржуйчик",
+      "Буржуй"
+    ],
+    "own": [
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут с игрока.",
+        "group": ""
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение игроку.",
+        "group": ""
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": ""
+      },
+      {
+        "command": "/lifttroll",
+        "args": "[ник]",
+        "description": "Подкинуть игрока вверх.",
+        "group": ""
+      },
+      {
+        "command": "/slaptroll",
+        "args": "[ник]",
+        "description": "Откинуть игрока в сторону.",
+        "group": ""
+      },
+      {
+        "command": "/spamtroll",
+        "args": "[ник]",
+        "description": "Заспамить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/healtroll",
+        "args": "[ник]",
+        "description": "Заставить игрока терять здоровье.",
+        "group": ""
+      },
+      {
+        "command": "/starvetroll",
+        "args": "[ник]",
+        "description": "Заставить игрока голодать.",
+        "group": ""
+      },
+      {
+        "command": "/pumpkintroll",
+        "args": "[ник]",
+        "description": "Надеть игроку на голову тыкву.",
+        "group": ""
+      },
+      {
+        "command": "/burntroll",
+        "args": "[ник]",
+        "description": "Поджечь игрока.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 10 регионов и точек дома.",
+      "Максимальный размер региона 5.000.000 блоков.",
+      "Доступно +10 флагов в регионе.",
+      "Доступ к Эмоциям и Анимированным головам в косметике."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      },
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут с игрока.",
+        "group": ""
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение игроку.",
+        "group": ""
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": ""
+      },
+      {
+        "command": "/lifttroll",
+        "args": "[ник]",
+        "description": "Подкинуть игрока вверх.",
+        "group": ""
+      },
+      {
+        "command": "/slaptroll",
+        "args": "[ник]",
+        "description": "Откинуть игрока в сторону.",
+        "group": ""
+      },
+      {
+        "command": "/spamtroll",
+        "args": "[ник]",
+        "description": "Заспамить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/healtroll",
+        "args": "[ник]",
+        "description": "Заставить игрока терять здоровье.",
+        "group": ""
+      },
+      {
+        "command": "/starvetroll",
+        "args": "[ник]",
+        "description": "Заставить игрока голодать.",
+        "group": ""
+      },
+      {
+        "command": "/pumpkintroll",
+        "args": "[ник]",
+        "description": "Надеть игроку на голову тыкву.",
+        "group": ""
+      },
+      {
+        "command": "/burntroll",
+        "args": "[ник]",
+        "description": "Поджечь игрока.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "ban",
+      "burntroll",
+      "hat",
+      "healtroll",
+      "lifttroll",
+      "mute",
+      "pumpkintroll",
+      "slaptroll",
+      "spamtroll",
+      "starvetroll",
+      "unban",
+      "unmute",
+      "warn"
+    ],
+    "tier": 4,
+    "commandsByMode": {
+      "survival": [
+        "ban",
+        "bc",
+        "burntroll",
+        "ci",
+        "compact",
+        "craft",
+        "delwarp",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "feed",
+        "fireball",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "hat",
+        "heal",
+        "healtroll",
+        "id",
+        "invsee",
+        "kit",
+        "lifttroll",
+        "mobs",
+        "mute",
+        "ptime",
+        "pumpkintroll",
+        "replace",
+        "s",
+        "seen",
+        "set",
+        "setwarp",
+        "slaptroll",
+        "spamtroll",
+        "spawn",
+        "speed",
+        "starvetroll",
+        "top",
+        "tp",
+        "tppos",
+        "trash",
+        "unban",
+        "undo",
+        "unmute",
+        "walls",
+        "warn"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "ban",
+        "burntroll",
+        "hat",
+        "healtroll",
+        "lifttroll",
+        "mute",
+        "pumpkintroll",
+        "slaptroll",
+        "spamtroll",
+        "starvetroll",
+        "unban",
+        "unmute",
+        "warn"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "sponsor",
+    "code": "sponsor",
+    "name": "Спонсор",
+    "kind": "donation",
+    "color": "#FF6B4A",
+    "price": "549 ₽/мес",
+    "keywords": [
+      "sponsor",
+      "спонсор",
+      "Спонсор"
+    ],
+    "own": [
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off]",
+        "description": "Поменять себе ник.",
+        "group": ""
+      },
+      {
+        "command": "/bctroll",
+        "args": "[ник]",
+        "description": "Сделать случайное объявление игроку.",
+        "group": ""
+      },
+      {
+        "command": "/fallingcowtroll",
+        "args": "[ник]",
+        "description": "Уронить на игрока коров.",
+        "group": ""
+      },
+      {
+        "command": "/paytroll",
+        "args": "[ник] [количество]",
+        "description": "Выдать игроку фейк-деньги.",
+        "group": ""
+      },
+      {
+        "command": "/bantroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной бана.",
+        "group": ""
+      },
+      {
+        "command": "/hacktroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной читы.",
+        "group": ""
+      },
+      {
+        "command": "/stoptroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной рестарта.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 15 регионов и точек дома.",
+      "Максимальный размер региона 6.000.000 блоков.",
+      "Доступно 10 слотов на аукционе.",
+      "Доступ к Частицам в косметике."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      },
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут с игрока.",
+        "group": ""
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение игроку.",
+        "group": ""
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": ""
+      },
+      {
+        "command": "/lifttroll",
+        "args": "[ник]",
+        "description": "Подкинуть игрока вверх.",
+        "group": ""
+      },
+      {
+        "command": "/slaptroll",
+        "args": "[ник]",
+        "description": "Откинуть игрока в сторону.",
+        "group": ""
+      },
+      {
+        "command": "/spamtroll",
+        "args": "[ник]",
+        "description": "Заспамить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/healtroll",
+        "args": "[ник]",
+        "description": "Заставить игрока терять здоровье.",
+        "group": ""
+      },
+      {
+        "command": "/starvetroll",
+        "args": "[ник]",
+        "description": "Заставить игрока голодать.",
+        "group": ""
+      },
+      {
+        "command": "/pumpkintroll",
+        "args": "[ник]",
+        "description": "Надеть игроку на голову тыкву.",
+        "group": ""
+      },
+      {
+        "command": "/burntroll",
+        "args": "[ник]",
+        "description": "Поджечь игрока.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off]",
+        "description": "Поменять себе ник.",
+        "group": ""
+      },
+      {
+        "command": "/bctroll",
+        "args": "[ник]",
+        "description": "Сделать случайное объявление игроку.",
+        "group": ""
+      },
+      {
+        "command": "/fallingcowtroll",
+        "args": "[ник]",
+        "description": "Уронить на игрока коров.",
+        "group": ""
+      },
+      {
+        "command": "/paytroll",
+        "args": "[ник] [количество]",
+        "description": "Выдать игроку фейк-деньги.",
+        "group": ""
+      },
+      {
+        "command": "/bantroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной бана.",
+        "group": ""
+      },
+      {
+        "command": "/hacktroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной читы.",
+        "group": ""
+      },
+      {
+        "command": "/stoptroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной рестарта.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "bantroll",
+      "bctroll",
+      "fallingcowtroll",
+      "feed",
+      "hacktroll",
+      "heal",
+      "nick",
+      "paytroll",
+      "stoptroll"
+    ],
+    "tier": 5,
+    "commandsByMode": {
+      "survival": [
+        "ban",
+        "bantroll",
+        "bc",
+        "bctroll",
+        "burntroll",
+        "ci",
+        "compact",
+        "craft",
+        "delwarp",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "fallingcowtroll",
+        "feed",
+        "fireball",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "hacktroll",
+        "hat",
+        "heal",
+        "healtroll",
+        "id",
+        "invsee",
+        "kit",
+        "lifttroll",
+        "mobs",
+        "mute",
+        "nick",
+        "paytroll",
+        "ptime",
+        "pumpkintroll",
+        "replace",
+        "s",
+        "seen",
+        "set",
+        "setwarp",
+        "slaptroll",
+        "spamtroll",
+        "spawn",
+        "speed",
+        "starvetroll",
+        "stoptroll",
+        "top",
+        "tp",
+        "tppos",
+        "trash",
+        "unban",
+        "undo",
+        "unmute",
+        "walls",
+        "warn"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "bantroll",
+        "bctroll",
+        "fallingcowtroll",
+        "hacktroll",
+        "paytroll",
+        "stoptroll"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "boss",
+    "code": "boss",
+    "name": "Босс",
+    "kind": "donation",
+    "color": "#9B6FFF",
+    "price": "799 ₽/мес",
+    "keywords": [
+      "boss",
+      "босс",
+      "Босс"
+    ],
+    "own": [
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Изменить чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Изменить чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/clearchat",
+        "args": "",
+        "description": "Очистить чат.",
+        "group": ""
+      },
+      {
+        "command": "/v",
+        "args": "",
+        "description": "Стать невидимым для игроков.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "[ник]",
+        "description": "Включить или выключить режим бога игроку.",
+        "group": ""
+      },
+      {
+        "command": "/thru",
+        "args": "",
+        "description": "Пройти сквозь стены.",
+        "group": ""
+      },
+      {
+        "command": "/itemname",
+        "args": "[текст]",
+        "description": "Изменить название предмета.",
+        "group": ""
+      },
+      {
+        "command": "/itemlore",
+        "args": "[линия] [remove/текст]",
+        "description": "Изменить описание предмета.",
+        "group": ""
+      },
+      {
+        "command": "/more",
+        "args": "",
+        "description": "Сделать стак предметов.",
+        "group": ""
+      },
+      {
+        "command": "//cyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненный цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "//hcyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать полый цилиндр.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 20 регионов и точек дома.",
+      "Максимальный размер региона 8.000.000 блоков.",
+      "Доступно 15 слотов на аукционе.",
+      "Доступ к Гаджетам в косметике.",
+      "Средняя задержка на отправку команд."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      },
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут с игрока.",
+        "group": ""
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение игроку.",
+        "group": ""
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": ""
+      },
+      {
+        "command": "/lifttroll",
+        "args": "[ник]",
+        "description": "Подкинуть игрока вверх.",
+        "group": ""
+      },
+      {
+        "command": "/slaptroll",
+        "args": "[ник]",
+        "description": "Откинуть игрока в сторону.",
+        "group": ""
+      },
+      {
+        "command": "/spamtroll",
+        "args": "[ник]",
+        "description": "Заспамить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/healtroll",
+        "args": "[ник]",
+        "description": "Заставить игрока терять здоровье.",
+        "group": ""
+      },
+      {
+        "command": "/starvetroll",
+        "args": "[ник]",
+        "description": "Заставить игрока голодать.",
+        "group": ""
+      },
+      {
+        "command": "/pumpkintroll",
+        "args": "[ник]",
+        "description": "Надеть игроку на голову тыкву.",
+        "group": ""
+      },
+      {
+        "command": "/burntroll",
+        "args": "[ник]",
+        "description": "Поджечь игрока.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off]",
+        "description": "Поменять себе ник.",
+        "group": ""
+      },
+      {
+        "command": "/bctroll",
+        "args": "[ник]",
+        "description": "Сделать случайное объявление игроку.",
+        "group": ""
+      },
+      {
+        "command": "/fallingcowtroll",
+        "args": "[ник]",
+        "description": "Уронить на игрока коров.",
+        "group": ""
+      },
+      {
+        "command": "/paytroll",
+        "args": "[ник] [количество]",
+        "description": "Выдать игроку фейк-деньги.",
+        "group": ""
+      },
+      {
+        "command": "/bantroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной бана.",
+        "group": ""
+      },
+      {
+        "command": "/hacktroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной читы.",
+        "group": ""
+      },
+      {
+        "command": "/stoptroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной рестарта.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/clearchat",
+        "args": "",
+        "description": "Очистить чат.",
+        "group": ""
+      },
+      {
+        "command": "/v",
+        "args": "",
+        "description": "Стать невидимым для игроков.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "[ник]",
+        "description": "Включить или выключить режим бога игроку.",
+        "group": ""
+      },
+      {
+        "command": "/thru",
+        "args": "",
+        "description": "Пройти сквозь стены.",
+        "group": ""
+      },
+      {
+        "command": "/itemname",
+        "args": "[текст]",
+        "description": "Изменить название предмета.",
+        "group": ""
+      },
+      {
+        "command": "/itemlore",
+        "args": "[линия] [remove/текст]",
+        "description": "Изменить описание предмета.",
+        "group": ""
+      },
+      {
+        "command": "/more",
+        "args": "",
+        "description": "Сделать стак предметов.",
+        "group": ""
+      },
+      {
+        "command": "//cyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненный цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "//hcyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать полый цилиндр.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "clearchat",
+      "cyl",
+      "echest",
+      "god",
+      "hcyl",
+      "invsee",
+      "itemlore",
+      "itemname",
+      "more",
+      "thru",
+      "v"
+    ],
+    "tier": 6,
+    "commandsByMode": {
+      "survival": [
+        "ban",
+        "bantroll",
+        "bc",
+        "bctroll",
+        "burntroll",
+        "ci",
+        "clearchat",
+        "compact",
+        "craft",
+        "cyl",
+        "delwarp",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "fallingcowtroll",
+        "feed",
+        "fireball",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "hacktroll",
+        "hat",
+        "hcyl",
+        "heal",
+        "healtroll",
+        "id",
+        "invsee",
+        "itemlore",
+        "itemname",
+        "kit",
+        "lifttroll",
+        "mobs",
+        "more",
+        "mute",
+        "nick",
+        "paytroll",
+        "ptime",
+        "pumpkintroll",
+        "replace",
+        "s",
+        "seen",
+        "set",
+        "setwarp",
+        "slaptroll",
+        "spamtroll",
+        "spawn",
+        "speed",
+        "starvetroll",
+        "stoptroll",
+        "thru",
+        "top",
+        "tp",
+        "tppos",
+        "trash",
+        "unban",
+        "undo",
+        "unmute",
+        "v",
+        "walls",
+        "warn"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "clearchat",
+        "cyl",
+        "hcyl",
+        "itemlore",
+        "itemname",
+        "more",
+        "thru",
+        "v"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "vlastelin",
+    "code": "vlastelin",
+    "name": "Властелин",
+    "kind": "donation",
+    "color": "#6DE0FF",
+    "price": "1090 ₽/мес",
+    "keywords": [
+      "lord",
+      "vlastelin",
+      "властелин",
+      "Властелин"
+    ],
+    "own": [
+      {
+        "command": "/fly",
+        "args": "[ник]",
+        "description": "Включить или выключить полёт игроку.",
+        "group": ""
+      },
+      {
+        "command": "/world",
+        "args": "[мир]",
+        "description": "Телепортироваться в выбранный мир.",
+        "group": ""
+      },
+      {
+        "command": "/head",
+        "args": "[ник]",
+        "description": "Получить голову игрока.",
+        "group": ""
+      },
+      {
+        "command": "/shadow",
+        "args": "",
+        "description": "Скрыть свою привилегию.",
+        "group": ""
+      },
+      {
+        "command": "/hideflags",
+        "args": "[флаг]",
+        "description": "Добавить скрывающий флаг предмету.",
+        "group": ""
+      },
+      {
+        "command": "/titlemsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в тайтл-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/amsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в экшен-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[ник] [скорость]",
+        "description": "Изменить скорость игроку.",
+        "group": ""
+      },
+      {
+        "command": "/whois",
+        "args": "[ник]",
+        "description": "Посмотреть информацию о игроке.",
+        "group": ""
+      },
+      {
+        "command": "/up",
+        "args": "[число]",
+        "description": "Телепортироваться на указанное количество блоков вверх.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 35 регионов и точек дома.",
+      "Максимальный размер региона 10.000.000 блоков.",
+      "Доступ к Плащам в косметике.",
+      "Слежка за личкой игроков. /cfg",
+      "Доступ к чужим регионам, кроме тех, где включён /protect.",
+      "Доступна слежка за личными сообщениями."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      },
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут с игрока.",
+        "group": ""
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение игроку.",
+        "group": ""
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": ""
+      },
+      {
+        "command": "/lifttroll",
+        "args": "[ник]",
+        "description": "Подкинуть игрока вверх.",
+        "group": ""
+      },
+      {
+        "command": "/slaptroll",
+        "args": "[ник]",
+        "description": "Откинуть игрока в сторону.",
+        "group": ""
+      },
+      {
+        "command": "/spamtroll",
+        "args": "[ник]",
+        "description": "Заспамить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/healtroll",
+        "args": "[ник]",
+        "description": "Заставить игрока терять здоровье.",
+        "group": ""
+      },
+      {
+        "command": "/starvetroll",
+        "args": "[ник]",
+        "description": "Заставить игрока голодать.",
+        "group": ""
+      },
+      {
+        "command": "/pumpkintroll",
+        "args": "[ник]",
+        "description": "Надеть игроку на голову тыкву.",
+        "group": ""
+      },
+      {
+        "command": "/burntroll",
+        "args": "[ник]",
+        "description": "Поджечь игрока.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off]",
+        "description": "Поменять себе ник.",
+        "group": ""
+      },
+      {
+        "command": "/bctroll",
+        "args": "[ник]",
+        "description": "Сделать случайное объявление игроку.",
+        "group": ""
+      },
+      {
+        "command": "/fallingcowtroll",
+        "args": "[ник]",
+        "description": "Уронить на игрока коров.",
+        "group": ""
+      },
+      {
+        "command": "/paytroll",
+        "args": "[ник] [количество]",
+        "description": "Выдать игроку фейк-деньги.",
+        "group": ""
+      },
+      {
+        "command": "/bantroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной бана.",
+        "group": ""
+      },
+      {
+        "command": "/hacktroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной читы.",
+        "group": ""
+      },
+      {
+        "command": "/stoptroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной рестарта.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/clearchat",
+        "args": "",
+        "description": "Очистить чат.",
+        "group": ""
+      },
+      {
+        "command": "/v",
+        "args": "",
+        "description": "Стать невидимым для игроков.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "[ник]",
+        "description": "Включить или выключить режим бога игроку.",
+        "group": ""
+      },
+      {
+        "command": "/thru",
+        "args": "",
+        "description": "Пройти сквозь стены.",
+        "group": ""
+      },
+      {
+        "command": "/itemname",
+        "args": "[текст]",
+        "description": "Изменить название предмета.",
+        "group": ""
+      },
+      {
+        "command": "/itemlore",
+        "args": "[линия] [remove/текст]",
+        "description": "Изменить описание предмета.",
+        "group": ""
+      },
+      {
+        "command": "/more",
+        "args": "",
+        "description": "Сделать стак предметов.",
+        "group": ""
+      },
+      {
+        "command": "//cyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненный цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "//hcyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать полый цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "/fly",
+        "args": "[ник]",
+        "description": "Включить или выключить полёт игроку.",
+        "group": ""
+      },
+      {
+        "command": "/world",
+        "args": "[мир]",
+        "description": "Телепортироваться в выбранный мир.",
+        "group": ""
+      },
+      {
+        "command": "/head",
+        "args": "[ник]",
+        "description": "Получить голову игрока.",
+        "group": ""
+      },
+      {
+        "command": "/shadow",
+        "args": "",
+        "description": "Скрыть свою привилегию.",
+        "group": ""
+      },
+      {
+        "command": "/hideflags",
+        "args": "[флаг]",
+        "description": "Добавить скрывающий флаг предмету.",
+        "group": ""
+      },
+      {
+        "command": "/titlemsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в тайтл-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/amsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в экшен-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[ник] [скорость]",
+        "description": "Изменить скорость игроку.",
+        "group": ""
+      },
+      {
+        "command": "/whois",
+        "args": "[ник]",
+        "description": "Посмотреть информацию о игроке.",
+        "group": ""
+      },
+      {
+        "command": "/up",
+        "args": "[число]",
+        "description": "Телепортироваться на указанное количество блоков вверх.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "amsg",
+      "fly",
+      "head",
+      "hideflags",
+      "shadow",
+      "speed",
+      "titlemsg",
+      "up",
+      "whois",
+      "world"
+    ],
+    "tier": 7,
+    "commandsByMode": {
+      "survival": [
+        "amsg",
+        "ban",
+        "bantroll",
+        "bc",
+        "bctroll",
+        "burntroll",
+        "ci",
+        "clearchat",
+        "compact",
+        "craft",
+        "cyl",
+        "delwarp",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "fallingcowtroll",
+        "feed",
+        "fireball",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "hacktroll",
+        "hat",
+        "hcyl",
+        "head",
+        "heal",
+        "healtroll",
+        "hideflags",
+        "id",
+        "invsee",
+        "itemlore",
+        "itemname",
+        "kit",
+        "lifttroll",
+        "mobs",
+        "more",
+        "mute",
+        "nick",
+        "paytroll",
+        "ptime",
+        "pumpkintroll",
+        "replace",
+        "s",
+        "seen",
+        "set",
+        "setwarp",
+        "shadow",
+        "slaptroll",
+        "spamtroll",
+        "spawn",
+        "speed",
+        "starvetroll",
+        "stoptroll",
+        "thru",
+        "titlemsg",
+        "top",
+        "tp",
+        "tppos",
+        "trash",
+        "unban",
+        "undo",
+        "unmute",
+        "up",
+        "v",
+        "walls",
+        "warn",
+        "whois",
+        "world"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "amsg",
+        "head",
+        "hideflags",
+        "shadow",
+        "titlemsg",
+        "up",
+        "whois",
+        "world"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "pravitel",
+    "code": "pravitel",
+    "name": "Правитель",
+    "kind": "donation",
+    "color": "#B0A0FF",
+    "price": "1590 ₽/мес",
+    "keywords": [
+      "ruler",
+      "pravitel",
+      "правитель",
+      "Правитель"
+    ],
+    "own": [
+      {
+        "command": "/prefix",
+        "args": "[chat/tab/clear] [ник] [префикс]",
+        "description": "Сменить префикс.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off] [ник_игрока]",
+        "description": "Поменять игроку ник.",
+        "group": ""
+      },
+      {
+        "command": "/checkban",
+        "args": "",
+        "description": "Посмотреть статус бана игрока.",
+        "group": ""
+      },
+      {
+        "command": "/checkmute",
+        "args": "",
+        "description": "Посмотреть статус мута игрока.",
+        "group": ""
+      },
+      {
+        "command": "//green",
+        "args": "[радиус]",
+        "description": "Озеленить землю вокруг себя.",
+        "group": ""
+      },
+      {
+        "command": "//sphere",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненную сферу.",
+        "group": ""
+      },
+      {
+        "command": "//hsphere",
+        "args": "[блок] [радиус]",
+        "description": "Создать полую сферу.",
+        "group": ""
+      },
+      {
+        "command": "//pyramid",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненную пирамиду.",
+        "group": ""
+      },
+      {
+        "command": "//hpyramid",
+        "args": "[блок] [радиус]",
+        "description": "Создать полую пирамиду.",
+        "group": ""
+      },
+      {
+        "command": "//replacenear",
+        "args": "[радиус] [блок] [блок]",
+        "description": "Заменить блоки рядом с собой.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 60 регионов и точек дома.",
+      "Максимальный размер региона 20.000.000 блоков.",
+      "Доступ к Костюмам в косметике.",
+      "Вы видите всех, кто находится в ванише.",
+      "Нет задержки на отправку сообщений в чат.",
+      "Минимальная задержка на отправку команд."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      },
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут с игрока.",
+        "group": ""
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение игроку.",
+        "group": ""
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": ""
+      },
+      {
+        "command": "/lifttroll",
+        "args": "[ник]",
+        "description": "Подкинуть игрока вверх.",
+        "group": ""
+      },
+      {
+        "command": "/slaptroll",
+        "args": "[ник]",
+        "description": "Откинуть игрока в сторону.",
+        "group": ""
+      },
+      {
+        "command": "/spamtroll",
+        "args": "[ник]",
+        "description": "Заспамить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/healtroll",
+        "args": "[ник]",
+        "description": "Заставить игрока терять здоровье.",
+        "group": ""
+      },
+      {
+        "command": "/starvetroll",
+        "args": "[ник]",
+        "description": "Заставить игрока голодать.",
+        "group": ""
+      },
+      {
+        "command": "/pumpkintroll",
+        "args": "[ник]",
+        "description": "Надеть игроку на голову тыкву.",
+        "group": ""
+      },
+      {
+        "command": "/burntroll",
+        "args": "[ник]",
+        "description": "Поджечь игрока.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off]",
+        "description": "Поменять себе ник.",
+        "group": ""
+      },
+      {
+        "command": "/bctroll",
+        "args": "[ник]",
+        "description": "Сделать случайное объявление игроку.",
+        "group": ""
+      },
+      {
+        "command": "/fallingcowtroll",
+        "args": "[ник]",
+        "description": "Уронить на игрока коров.",
+        "group": ""
+      },
+      {
+        "command": "/paytroll",
+        "args": "[ник] [количество]",
+        "description": "Выдать игроку фейк-деньги.",
+        "group": ""
+      },
+      {
+        "command": "/bantroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной бана.",
+        "group": ""
+      },
+      {
+        "command": "/hacktroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной читы.",
+        "group": ""
+      },
+      {
+        "command": "/stoptroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной рестарта.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/clearchat",
+        "args": "",
+        "description": "Очистить чат.",
+        "group": ""
+      },
+      {
+        "command": "/v",
+        "args": "",
+        "description": "Стать невидимым для игроков.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "[ник]",
+        "description": "Включить или выключить режим бога игроку.",
+        "group": ""
+      },
+      {
+        "command": "/thru",
+        "args": "",
+        "description": "Пройти сквозь стены.",
+        "group": ""
+      },
+      {
+        "command": "/itemname",
+        "args": "[текст]",
+        "description": "Изменить название предмета.",
+        "group": ""
+      },
+      {
+        "command": "/itemlore",
+        "args": "[линия] [remove/текст]",
+        "description": "Изменить описание предмета.",
+        "group": ""
+      },
+      {
+        "command": "/more",
+        "args": "",
+        "description": "Сделать стак предметов.",
+        "group": ""
+      },
+      {
+        "command": "//cyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненный цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "//hcyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать полый цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "/fly",
+        "args": "[ник]",
+        "description": "Включить или выключить полёт игроку.",
+        "group": ""
+      },
+      {
+        "command": "/world",
+        "args": "[мир]",
+        "description": "Телепортироваться в выбранный мир.",
+        "group": ""
+      },
+      {
+        "command": "/head",
+        "args": "[ник]",
+        "description": "Получить голову игрока.",
+        "group": ""
+      },
+      {
+        "command": "/shadow",
+        "args": "",
+        "description": "Скрыть свою привилегию.",
+        "group": ""
+      },
+      {
+        "command": "/hideflags",
+        "args": "[флаг]",
+        "description": "Добавить скрывающий флаг предмету.",
+        "group": ""
+      },
+      {
+        "command": "/titlemsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в тайтл-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/amsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в экшен-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[ник] [скорость]",
+        "description": "Изменить скорость игроку.",
+        "group": ""
+      },
+      {
+        "command": "/whois",
+        "args": "[ник]",
+        "description": "Посмотреть информацию о игроке.",
+        "group": ""
+      },
+      {
+        "command": "/up",
+        "args": "[число]",
+        "description": "Телепортироваться на указанное количество блоков вверх.",
+        "group": ""
+      },
+      {
+        "command": "/prefix",
+        "args": "[chat/tab/clear] [ник] [префикс]",
+        "description": "Сменить префикс.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off] [ник_игрока]",
+        "description": "Поменять игроку ник.",
+        "group": ""
+      },
+      {
+        "command": "/checkban",
+        "args": "",
+        "description": "Посмотреть статус бана игрока.",
+        "group": ""
+      },
+      {
+        "command": "/checkmute",
+        "args": "",
+        "description": "Посмотреть статус мута игрока.",
+        "group": ""
+      },
+      {
+        "command": "//green",
+        "args": "[радиус]",
+        "description": "Озеленить землю вокруг себя.",
+        "group": ""
+      },
+      {
+        "command": "//sphere",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненную сферу.",
+        "group": ""
+      },
+      {
+        "command": "//hsphere",
+        "args": "[блок] [радиус]",
+        "description": "Создать полую сферу.",
+        "group": ""
+      },
+      {
+        "command": "//pyramid",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненную пирамиду.",
+        "group": ""
+      },
+      {
+        "command": "//hpyramid",
+        "args": "[блок] [радиус]",
+        "description": "Создать полую пирамиду.",
+        "group": ""
+      },
+      {
+        "command": "//replacenear",
+        "args": "[радиус] [блок] [блок]",
+        "description": "Заменить блоки рядом с собой.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "checkban",
+      "checkmute",
+      "green",
+      "hpyramid",
+      "hsphere",
+      "nick",
+      "prefix",
+      "pyramid",
+      "replacenear",
+      "sphere"
+    ],
+    "tier": 8,
+    "commandsByMode": {
+      "survival": [
+        "amsg",
+        "ban",
+        "bantroll",
+        "bc",
+        "bctroll",
+        "burntroll",
+        "checkban",
+        "checkmute",
+        "ci",
+        "clearchat",
+        "compact",
+        "craft",
+        "cyl",
+        "delwarp",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "fallingcowtroll",
+        "feed",
+        "fireball",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "green",
+        "hacktroll",
+        "hat",
+        "hcyl",
+        "head",
+        "heal",
+        "healtroll",
+        "hideflags",
+        "hpyramid",
+        "hsphere",
+        "id",
+        "invsee",
+        "itemlore",
+        "itemname",
+        "kit",
+        "lifttroll",
+        "mobs",
+        "more",
+        "mute",
+        "nick",
+        "paytroll",
+        "prefix",
+        "ptime",
+        "pumpkintroll",
+        "pyramid",
+        "replace",
+        "replacenear",
+        "s",
+        "seen",
+        "set",
+        "setwarp",
+        "shadow",
+        "slaptroll",
+        "spamtroll",
+        "spawn",
+        "speed",
+        "sphere",
+        "starvetroll",
+        "stoptroll",
+        "thru",
+        "titlemsg",
+        "top",
+        "tp",
+        "tppos",
+        "trash",
+        "unban",
+        "undo",
+        "unmute",
+        "up",
+        "v",
+        "walls",
+        "warn",
+        "whois",
+        "world"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "checkban",
+        "checkmute",
+        "green",
+        "hpyramid",
+        "hsphere",
+        "prefix",
+        "pyramid",
+        "replacenear",
+        "sphere"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "president",
+    "code": "president",
+    "name": "Президент",
+    "kind": "donation",
+    "color": "#FFD166",
+    "price": "2190 ₽/мес",
+    "keywords": [
+      "president",
+      "президент",
+      "презик",
+      "ᴘʀᴇꜱɪᴅᴇɴᴛ"
+    ],
+    "own": [
+      {
+        "command": "/lagg",
+        "args": "",
+        "description": "clear Удалить мусор на карте.",
+        "group": ""
+      },
+      {
+        "command": "/history",
+        "args": "[ник]",
+        "description": "Посмотреть историю игрока.",
+        "group": ""
+      },
+      {
+        "command": "/dupeip",
+        "args": "[ник]",
+        "description": "Посмотреть все аккаунты игрока.",
+        "group": ""
+      },
+      {
+        "command": "/sticker",
+        "args": "[название]",
+        "description": "Установить стикер.",
+        "group": ""
+      },
+      {
+        "command": "/cry",
+        "args": "[ник]",
+        "description": "Довести до слёз игрока.",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3] [ник]",
+        "description": "Изменить режим игры игроку.",
+        "group": ""
+      },
+      {
+        "command": "/brush",
+        "args": "",
+        "description": "Использовать кисти WorldEdit.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно 100 регионов и точек дома.",
+      "Максимальный размер региона 50.000.000 блоков.",
+      "Доступно 20 слотов на аукционе.",
+      "Слежка за табличками игроков. /cfg",
+      "Увеличенная дистанция просмотра: доступно 10 чанков.",
+      "Никто не сможет заткнуть или затроллить.",
+      "Связь со всей администрацией напрямую."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      },
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут с игрока.",
+        "group": ""
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение игроку.",
+        "group": ""
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": ""
+      },
+      {
+        "command": "/lifttroll",
+        "args": "[ник]",
+        "description": "Подкинуть игрока вверх.",
+        "group": ""
+      },
+      {
+        "command": "/slaptroll",
+        "args": "[ник]",
+        "description": "Откинуть игрока в сторону.",
+        "group": ""
+      },
+      {
+        "command": "/spamtroll",
+        "args": "[ник]",
+        "description": "Заспамить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/healtroll",
+        "args": "[ник]",
+        "description": "Заставить игрока терять здоровье.",
+        "group": ""
+      },
+      {
+        "command": "/starvetroll",
+        "args": "[ник]",
+        "description": "Заставить игрока голодать.",
+        "group": ""
+      },
+      {
+        "command": "/pumpkintroll",
+        "args": "[ник]",
+        "description": "Надеть игроку на голову тыкву.",
+        "group": ""
+      },
+      {
+        "command": "/burntroll",
+        "args": "[ник]",
+        "description": "Поджечь игрока.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off]",
+        "description": "Поменять себе ник.",
+        "group": ""
+      },
+      {
+        "command": "/bctroll",
+        "args": "[ник]",
+        "description": "Сделать случайное объявление игроку.",
+        "group": ""
+      },
+      {
+        "command": "/fallingcowtroll",
+        "args": "[ник]",
+        "description": "Уронить на игрока коров.",
+        "group": ""
+      },
+      {
+        "command": "/paytroll",
+        "args": "[ник] [количество]",
+        "description": "Выдать игроку фейк-деньги.",
+        "group": ""
+      },
+      {
+        "command": "/bantroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной бана.",
+        "group": ""
+      },
+      {
+        "command": "/hacktroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной читы.",
+        "group": ""
+      },
+      {
+        "command": "/stoptroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной рестарта.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/clearchat",
+        "args": "",
+        "description": "Очистить чат.",
+        "group": ""
+      },
+      {
+        "command": "/v",
+        "args": "",
+        "description": "Стать невидимым для игроков.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "[ник]",
+        "description": "Включить или выключить режим бога игроку.",
+        "group": ""
+      },
+      {
+        "command": "/thru",
+        "args": "",
+        "description": "Пройти сквозь стены.",
+        "group": ""
+      },
+      {
+        "command": "/itemname",
+        "args": "[текст]",
+        "description": "Изменить название предмета.",
+        "group": ""
+      },
+      {
+        "command": "/itemlore",
+        "args": "[линия] [remove/текст]",
+        "description": "Изменить описание предмета.",
+        "group": ""
+      },
+      {
+        "command": "/more",
+        "args": "",
+        "description": "Сделать стак предметов.",
+        "group": ""
+      },
+      {
+        "command": "//cyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненный цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "//hcyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать полый цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "/fly",
+        "args": "[ник]",
+        "description": "Включить или выключить полёт игроку.",
+        "group": ""
+      },
+      {
+        "command": "/world",
+        "args": "[мир]",
+        "description": "Телепортироваться в выбранный мир.",
+        "group": ""
+      },
+      {
+        "command": "/head",
+        "args": "[ник]",
+        "description": "Получить голову игрока.",
+        "group": ""
+      },
+      {
+        "command": "/shadow",
+        "args": "",
+        "description": "Скрыть свою привилегию.",
+        "group": ""
+      },
+      {
+        "command": "/hideflags",
+        "args": "[флаг]",
+        "description": "Добавить скрывающий флаг предмету.",
+        "group": ""
+      },
+      {
+        "command": "/titlemsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в тайтл-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/amsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в экшен-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[ник] [скорость]",
+        "description": "Изменить скорость игроку.",
+        "group": ""
+      },
+      {
+        "command": "/whois",
+        "args": "[ник]",
+        "description": "Посмотреть информацию о игроке.",
+        "group": ""
+      },
+      {
+        "command": "/up",
+        "args": "[число]",
+        "description": "Телепортироваться на указанное количество блоков вверх.",
+        "group": ""
+      },
+      {
+        "command": "/prefix",
+        "args": "[chat/tab/clear] [ник] [префикс]",
+        "description": "Сменить префикс.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off] [ник_игрока]",
+        "description": "Поменять игроку ник.",
+        "group": ""
+      },
+      {
+        "command": "/checkban",
+        "args": "",
+        "description": "Посмотреть статус бана игрока.",
+        "group": ""
+      },
+      {
+        "command": "/checkmute",
+        "args": "",
+        "description": "Посмотреть статус мута игрока.",
+        "group": ""
+      },
+      {
+        "command": "//green",
+        "args": "[радиус]",
+        "description": "Озеленить землю вокруг себя.",
+        "group": ""
+      },
+      {
+        "command": "//sphere",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненную сферу.",
+        "group": ""
+      },
+      {
+        "command": "//hsphere",
+        "args": "[блок] [радиус]",
+        "description": "Создать полую сферу.",
+        "group": ""
+      },
+      {
+        "command": "//pyramid",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненную пирамиду.",
+        "group": ""
+      },
+      {
+        "command": "//hpyramid",
+        "args": "[блок] [радиус]",
+        "description": "Создать полую пирамиду.",
+        "group": ""
+      },
+      {
+        "command": "//replacenear",
+        "args": "[радиус] [блок] [блок]",
+        "description": "Заменить блоки рядом с собой.",
+        "group": ""
+      },
+      {
+        "command": "/lagg",
+        "args": "",
+        "description": "clear Удалить мусор на карте.",
+        "group": ""
+      },
+      {
+        "command": "/history",
+        "args": "[ник]",
+        "description": "Посмотреть историю игрока.",
+        "group": ""
+      },
+      {
+        "command": "/dupeip",
+        "args": "[ник]",
+        "description": "Посмотреть все аккаунты игрока.",
+        "group": ""
+      },
+      {
+        "command": "/sticker",
+        "args": "[название]",
+        "description": "Установить стикер.",
+        "group": ""
+      },
+      {
+        "command": "/cry",
+        "args": "[ник]",
+        "description": "Довести до слёз игрока.",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3] [ник]",
+        "description": "Изменить режим игры игроку.",
+        "group": ""
+      },
+      {
+        "command": "/brush",
+        "args": "",
+        "description": "Использовать кисти WorldEdit.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "brush",
+      "cry",
+      "dupeip",
+      "gm",
+      "history",
+      "lagg",
+      "sticker"
+    ],
+    "tier": 9,
+    "commandsByMode": {
+      "survival": [
+        "amsg",
+        "ban",
+        "bantroll",
+        "bc",
+        "bctroll",
+        "brush",
+        "burntroll",
+        "checkban",
+        "checkmute",
+        "ci",
+        "clearchat",
+        "compact",
+        "craft",
+        "cry",
+        "cyl",
+        "delwarp",
+        "dupeip",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "fallingcowtroll",
+        "feed",
+        "fireball",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "green",
+        "hacktroll",
+        "hat",
+        "hcyl",
+        "head",
+        "heal",
+        "healtroll",
+        "hideflags",
+        "history",
+        "hpyramid",
+        "hsphere",
+        "id",
+        "invsee",
+        "itemlore",
+        "itemname",
+        "kit",
+        "lagg",
+        "lifttroll",
+        "mobs",
+        "more",
+        "mute",
+        "nick",
+        "paytroll",
+        "prefix",
+        "ptime",
+        "pumpkintroll",
+        "pyramid",
+        "replace",
+        "replacenear",
+        "s",
+        "seen",
+        "set",
+        "setwarp",
+        "shadow",
+        "slaptroll",
+        "spamtroll",
+        "spawn",
+        "speed",
+        "sphere",
+        "starvetroll",
+        "sticker",
+        "stoptroll",
+        "thru",
+        "titlemsg",
+        "top",
+        "tp",
+        "tppos",
+        "trash",
+        "unban",
+        "undo",
+        "unmute",
+        "up",
+        "v",
+        "walls",
+        "warn",
+        "whois",
+        "world"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "brush",
+        "cry",
+        "dupeip",
+        "history",
+        "lagg",
+        "sticker"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "envy",
+    "code": "envy",
+    "name": "Envy",
+    "kind": "donation",
+    "color": "#F2EEF8",
+    "price": "9990 ₽ навсегда",
+    "keywords": [
+      "[envy]",
+      "envy rank",
+      "привилегия envy",
+      "ранг envy",
+      "envy]",
+      "Envy"
+    ],
+    "own": [
+      {
+        "command": "/d",
+        "args": "",
+        "description": "p [ник] Превратиться в другого игрока.",
+        "group": ""
+      },
+      {
+        "command": "/crash",
+        "args": "[ник]",
+        "description": "Крашнуть игроку клиент.",
+        "group": ""
+      },
+      {
+        "command": "/死",
+        "args": "",
+        "description": "Выпустить 11 фаерболов.",
+        "group": ""
+      },
+      {
+        "command": "/thor",
+        "args": "[ник]",
+        "description": "Ударить молнией в игрока.",
+        "group": ""
+      },
+      {
+        "command": "/pweather",
+        "args": "[sun/rain/reset]",
+        "description": "Изменить погоду для себя.",
+        "group": ""
+      },
+      {
+        "command": "/itf",
+        "args": "",
+        "description": "toggle glow [цвет] Изменить подсветку рамки.",
+        "group": ""
+      }
+    ],
+    "perks": [
+      "Доступно бесконечность регионов и точек дома.",
+      "Максимальный размер региона 100.000.000 блоков.",
+      "Доступно 25 слотов на аукционе.",
+      "Слежка за командами игроков. /cfg",
+      "99.9% всех команд сервера.",
+      "ПОЛНЫЙ ДОСТУП ко всем регионам, включая защищённые через /protect.",
+      "Нет задержки на чат и команды, кроме опасных.",
+      "Доступ к запрещённым блокам.",
+      "Никто не сможет вас забанить, заткнуть или затроллить.",
+      "Никто не сможет вам изменить инвентарь."
+    ],
+    "commands": [
+      {
+        "command": "/fly",
+        "args": "",
+        "description": "Включить/выключить режим полёта.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "",
+        "description": "Включить/выключить режим бога.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "",
+        "description": "Накормить себя.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "",
+        "description": "Исцелить себя.",
+        "group": ""
+      },
+      {
+        "command": "/mobs",
+        "args": "",
+        "description": "Превращаться в мобов.",
+        "group": ""
+      },
+      {
+        "command": "/trash",
+        "args": "",
+        "description": "Открыть мусорку для удаления вещей.",
+        "group": ""
+      },
+      {
+        "command": "/kit",
+        "args": "",
+        "description": "vip Получить VIP набор.",
+        "group": ""
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "",
+        "description": "Открыть свой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/fix",
+        "args": "[hand/armor/all]",
+        "description": "Починить предметы.",
+        "group": ""
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет.",
+        "group": ""
+      },
+      {
+        "command": "/compact",
+        "args": "",
+        "description": "Собрать предметы в блоки.",
+        "group": ""
+      },
+      {
+        "command": "/dye",
+        "args": "[цвет]",
+        "description": "Покрасить предмет. (броня/зелья/стрелы)",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3]",
+        "description": "Изменить режим игры.",
+        "group": ""
+      },
+      {
+        "command": "/exp",
+        "args": "[add/set/take/clear] [кол-во]",
+        "description": "Выдать или изменить себе опыт.",
+        "group": ""
+      },
+      {
+        "command": "/top",
+        "args": "",
+        "description": "Телепортироваться на самый верхний блок.",
+        "group": ""
+      },
+      {
+        "command": "/ptime",
+        "args": "[время]",
+        "description": "Изменить личное время.",
+        "group": ""
+      },
+      {
+        "command": "/id",
+        "args": "",
+        "description": "Узнать id предмета.",
+        "group": ""
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепортироваться к игроку.",
+        "group": ""
+      },
+      {
+        "command": "/s",
+        "args": "[ник]",
+        "description": "Телепортировать игрока к себе.",
+        "group": ""
+      },
+      {
+        "command": "/tppos",
+        "args": "[координаты]",
+        "description": "Телепортироваться по координатам.",
+        "group": ""
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Установить варп.",
+        "group": ""
+      },
+      {
+        "command": "/delwarp",
+        "args": "[название]",
+        "description": "Удалить варп.",
+        "group": ""
+      },
+      {
+        "command": "/seen",
+        "args": "[ник]",
+        "description": "Посмотреть когда игрок был в сети.",
+        "group": ""
+      },
+      {
+        "command": "/bc",
+        "args": "[сообщение]",
+        "description": "Сделать объявление всем на сервере.",
+        "group": ""
+      },
+      {
+        "command": "/ci",
+        "args": "",
+        "description": "Очистить свой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/fireball",
+        "args": "",
+        "description": "Выстрелить огненным шаром.",
+        "group": ""
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть чужой инвентарь.",
+        "group": ""
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть чужой эндер-сундук.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[скорость]",
+        "description": "Изменить свою скорость.",
+        "group": ""
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепортировать игрока на спавн.",
+        "group": ""
+      },
+      {
+        "command": "//set",
+        "args": "[id]",
+        "description": "Сетнуть блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//undo",
+        "args": "",
+        "description": "Отменить последнее изменение.",
+        "group": ""
+      },
+      {
+        "command": "//walls",
+        "args": "[id]",
+        "description": "Сетнуть стены в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "//replace",
+        "args": "[id]",
+        "description": "Заменить блоки в своём регионе.",
+        "group": ""
+      },
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока.",
+        "group": ""
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока.",
+        "group": ""
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут с игрока.",
+        "group": ""
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение игроку.",
+        "group": ""
+      },
+      {
+        "command": "/hat",
+        "args": "",
+        "description": "Надеть предмет на голову.",
+        "group": ""
+      },
+      {
+        "command": "/lifttroll",
+        "args": "[ник]",
+        "description": "Подкинуть игрока вверх.",
+        "group": ""
+      },
+      {
+        "command": "/slaptroll",
+        "args": "[ник]",
+        "description": "Откинуть игрока в сторону.",
+        "group": ""
+      },
+      {
+        "command": "/spamtroll",
+        "args": "[ник]",
+        "description": "Заспамить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/healtroll",
+        "args": "[ник]",
+        "description": "Заставить игрока терять здоровье.",
+        "group": ""
+      },
+      {
+        "command": "/starvetroll",
+        "args": "[ник]",
+        "description": "Заставить игрока голодать.",
+        "group": ""
+      },
+      {
+        "command": "/pumpkintroll",
+        "args": "[ник]",
+        "description": "Надеть игроку на голову тыкву.",
+        "group": ""
+      },
+      {
+        "command": "/burntroll",
+        "args": "[ник]",
+        "description": "Поджечь игрока.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off]",
+        "description": "Поменять себе ник.",
+        "group": ""
+      },
+      {
+        "command": "/bctroll",
+        "args": "[ник]",
+        "description": "Сделать случайное объявление игроку.",
+        "group": ""
+      },
+      {
+        "command": "/fallingcowtroll",
+        "args": "[ник]",
+        "description": "Уронить на игрока коров.",
+        "group": ""
+      },
+      {
+        "command": "/paytroll",
+        "args": "[ник] [количество]",
+        "description": "Выдать игроку фейк-деньги.",
+        "group": ""
+      },
+      {
+        "command": "/bantroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной бана.",
+        "group": ""
+      },
+      {
+        "command": "/hacktroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной читы.",
+        "group": ""
+      },
+      {
+        "command": "/stoptroll",
+        "args": "[ник]",
+        "description": "Кикнуть игрока с причиной рестарта.",
+        "group": ""
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока.",
+        "group": ""
+      },
+      {
+        "command": "/clearchat",
+        "args": "",
+        "description": "Очистить чат.",
+        "group": ""
+      },
+      {
+        "command": "/v",
+        "args": "",
+        "description": "Стать невидимым для игроков.",
+        "group": ""
+      },
+      {
+        "command": "/god",
+        "args": "[ник]",
+        "description": "Включить или выключить режим бога игроку.",
+        "group": ""
+      },
+      {
+        "command": "/thru",
+        "args": "",
+        "description": "Пройти сквозь стены.",
+        "group": ""
+      },
+      {
+        "command": "/itemname",
+        "args": "[текст]",
+        "description": "Изменить название предмета.",
+        "group": ""
+      },
+      {
+        "command": "/itemlore",
+        "args": "[линия] [remove/текст]",
+        "description": "Изменить описание предмета.",
+        "group": ""
+      },
+      {
+        "command": "/more",
+        "args": "",
+        "description": "Сделать стак предметов.",
+        "group": ""
+      },
+      {
+        "command": "//cyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненный цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "//hcyl",
+        "args": "[блок] [радиус]",
+        "description": "Создать полый цилиндр.",
+        "group": ""
+      },
+      {
+        "command": "/fly",
+        "args": "[ник]",
+        "description": "Включить или выключить полёт игроку.",
+        "group": ""
+      },
+      {
+        "command": "/world",
+        "args": "[мир]",
+        "description": "Телепортироваться в выбранный мир.",
+        "group": ""
+      },
+      {
+        "command": "/head",
+        "args": "[ник]",
+        "description": "Получить голову игрока.",
+        "group": ""
+      },
+      {
+        "command": "/shadow",
+        "args": "",
+        "description": "Скрыть свою привилегию.",
+        "group": ""
+      },
+      {
+        "command": "/hideflags",
+        "args": "[флаг]",
+        "description": "Добавить скрывающий флаг предмету.",
+        "group": ""
+      },
+      {
+        "command": "/titlemsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в тайтл-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/amsg",
+        "args": "[ник] [сообщение]",
+        "description": "Отправить сообщение в экшен-бар игроку.",
+        "group": ""
+      },
+      {
+        "command": "/speed",
+        "args": "[ник] [скорость]",
+        "description": "Изменить скорость игроку.",
+        "group": ""
+      },
+      {
+        "command": "/whois",
+        "args": "[ник]",
+        "description": "Посмотреть информацию о игроке.",
+        "group": ""
+      },
+      {
+        "command": "/up",
+        "args": "[число]",
+        "description": "Телепортироваться на указанное количество блоков вверх.",
+        "group": ""
+      },
+      {
+        "command": "/prefix",
+        "args": "[chat/tab/clear] [ник] [префикс]",
+        "description": "Сменить префикс.",
+        "group": ""
+      },
+      {
+        "command": "/nick",
+        "args": "[новый_ник/off] [ник_игрока]",
+        "description": "Поменять игроку ник.",
+        "group": ""
+      },
+      {
+        "command": "/checkban",
+        "args": "",
+        "description": "Посмотреть статус бана игрока.",
+        "group": ""
+      },
+      {
+        "command": "/checkmute",
+        "args": "",
+        "description": "Посмотреть статус мута игрока.",
+        "group": ""
+      },
+      {
+        "command": "//green",
+        "args": "[радиус]",
+        "description": "Озеленить землю вокруг себя.",
+        "group": ""
+      },
+      {
+        "command": "//sphere",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненную сферу.",
+        "group": ""
+      },
+      {
+        "command": "//hsphere",
+        "args": "[блок] [радиус]",
+        "description": "Создать полую сферу.",
+        "group": ""
+      },
+      {
+        "command": "//pyramid",
+        "args": "[блок] [радиус]",
+        "description": "Создать заполненную пирамиду.",
+        "group": ""
+      },
+      {
+        "command": "//hpyramid",
+        "args": "[блок] [радиус]",
+        "description": "Создать полую пирамиду.",
+        "group": ""
+      },
+      {
+        "command": "//replacenear",
+        "args": "[радиус] [блок] [блок]",
+        "description": "Заменить блоки рядом с собой.",
+        "group": ""
+      },
+      {
+        "command": "/lagg",
+        "args": "",
+        "description": "clear Удалить мусор на карте.",
+        "group": ""
+      },
+      {
+        "command": "/history",
+        "args": "[ник]",
+        "description": "Посмотреть историю игрока.",
+        "group": ""
+      },
+      {
+        "command": "/dupeip",
+        "args": "[ник]",
+        "description": "Посмотреть все аккаунты игрока.",
+        "group": ""
+      },
+      {
+        "command": "/sticker",
+        "args": "[название]",
+        "description": "Установить стикер.",
+        "group": ""
+      },
+      {
+        "command": "/cry",
+        "args": "[ник]",
+        "description": "Довести до слёз игрока.",
+        "group": ""
+      },
+      {
+        "command": "/gm",
+        "args": "[0/1/2/3] [ник]",
+        "description": "Изменить режим игры игроку.",
+        "group": ""
+      },
+      {
+        "command": "/brush",
+        "args": "",
+        "description": "Использовать кисти WorldEdit.",
+        "group": ""
+      },
+      {
+        "command": "/d",
+        "args": "",
+        "description": "p [ник] Превратиться в другого игрока.",
+        "group": ""
+      },
+      {
+        "command": "/crash",
+        "args": "[ник]",
+        "description": "Крашнуть игроку клиент.",
+        "group": ""
+      },
+      {
+        "command": "/死",
+        "args": "",
+        "description": "Выпустить 11 фаерболов.",
+        "group": ""
+      },
+      {
+        "command": "/thor",
+        "args": "[ник]",
+        "description": "Ударить молнией в игрока.",
+        "group": ""
+      },
+      {
+        "command": "/pweather",
+        "args": "[sun/rain/reset]",
+        "description": "Изменить погоду для себя.",
+        "group": ""
+      },
+      {
+        "command": "/itf",
+        "args": "",
+        "description": "toggle glow [цвет] Изменить подсветку рамки.",
+        "group": ""
+      }
+    ],
+    "signature": [
+      "crash",
+      "d",
+      "itf",
+      "pweather",
+      "thor",
+      "死"
+    ],
+    "tier": 10,
+    "commandsByMode": {
+      "survival": [
+        "amsg",
+        "ban",
+        "bantroll",
+        "bc",
+        "bctroll",
+        "brush",
+        "burntroll",
+        "checkban",
+        "checkmute",
+        "ci",
+        "clearchat",
+        "compact",
+        "craft",
+        "crash",
+        "cry",
+        "cyl",
+        "d",
+        "delwarp",
+        "dupeip",
+        "dye",
+        "echest",
+        "enchant",
+        "exp",
+        "fallingcowtroll",
+        "feed",
+        "fireball",
+        "fix",
+        "fly",
+        "gm",
+        "god",
+        "green",
+        "hacktroll",
+        "hat",
+        "hcyl",
+        "head",
+        "heal",
+        "healtroll",
+        "hideflags",
+        "history",
+        "hpyramid",
+        "hsphere",
+        "id",
+        "invsee",
+        "itemlore",
+        "itemname",
+        "itf",
+        "kit",
+        "lagg",
+        "lifttroll",
+        "mobs",
+        "more",
+        "mute",
+        "nick",
+        "paytroll",
+        "prefix",
+        "ptime",
+        "pumpkintroll",
+        "pweather",
+        "pyramid",
+        "replace",
+        "replacenear",
+        "s",
+        "seen",
+        "set",
+        "setwarp",
+        "shadow",
+        "slaptroll",
+        "spamtroll",
+        "spawn",
+        "speed",
+        "sphere",
+        "starvetroll",
+        "sticker",
+        "stoptroll",
+        "thor",
+        "thru",
+        "titlemsg",
+        "top",
+        "tp",
+        "tppos",
+        "trash",
+        "unban",
+        "undo",
+        "unmute",
+        "up",
+        "v",
+        "walls",
+        "warn",
+        "whois",
+        "world",
+        "死"
+      ],
+      "minigames": [],
+      "oneblock": []
+    },
+    "signaturesByMode": {
+      "survival": [
+        "crash",
+        "d",
+        "itf",
+        "pweather",
+        "thor",
+        "死"
+      ],
+      "minigames": [],
+      "oneblock": []
+    }
+  },
+  {
+    "id": "helper",
+    "code": "helper",
+    "name": "Хелпер",
+    "kind": "staff",
+    "color": "#8CE88C",
+    "price": "без доната",
+    "keywords": [
+      "хелпер",
+      "helper",
+      "стажер",
+      "стажёр",
+      "trainee",
+      "support",
+      "саппорт",
+      "ew_helper"
+    ],
+    "signature": [
+      "helpop",
+      "kick",
+      "mute",
+      "report",
+      "tp",
+      "vanish",
+      "warn"
+    ],
+    "tier": 20,
+    "own": [
+      {
+        "command": "/helpop",
+        "args": "[сообщение]",
+        "description": "Сообщение администрации",
+        "group": "Модерация"
+      },
+      {
+        "command": "/report",
+        "args": "[ник] [причина]",
+        "description": "Жалоба на игрока",
+        "group": "Модерация"
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Предупреждение игроку",
+        "group": "Модерация"
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока",
+        "group": "Модерация"
+      },
+      {
+        "command": "/kick",
+        "args": "[ник] [причина]",
+        "description": "Кикнуть игрока",
+        "group": "Модерация"
+      },
+      {
+        "command": "/vanish",
+        "args": "",
+        "description": "Скрыться из списка игроков",
+        "group": "Модерация"
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепорт к игроку",
+        "group": "Модерация"
+      }
+    ],
+    "perks": [
+      "Базовая модерация чата",
+      "Помощь игрокам"
+    ],
+    "commands": [
+      {
+        "command": "/helpop",
+        "args": "[сообщение]",
+        "description": "Сообщение администрации",
+        "group": "Модерация"
+      },
+      {
+        "command": "/report",
+        "args": "[ник] [причина]",
+        "description": "Жалоба на игрока",
+        "group": "Модерация"
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Предупреждение игроку",
+        "group": "Модерация"
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока",
+        "group": "Модерация"
+      },
+      {
+        "command": "/kick",
+        "args": "[ник] [причина]",
+        "description": "Кикнуть игрока",
+        "group": "Модерация"
+      },
+      {
+        "command": "/vanish",
+        "args": "",
+        "description": "Скрыться из списка игроков",
+        "group": "Модерация"
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепорт к игроку",
+        "group": "Модерация"
+      }
+    ]
+  },
+  {
+    "id": "moderator",
+    "code": "moderator",
+    "name": "Модератор",
+    "kind": "staff",
+    "color": "#4AFF8C",
+    "price": "без доната",
+    "keywords": [
+      "модератор",
+      "moderator",
+      "модер",
+      "moder",
+      "mod+",
+      "st.moder",
+      "gl.moder",
+      "куратор",
+      "curator",
+      "ew_moder",
+      "гл. модератор",
+      "главный модератор"
+    ],
+    "signature": [
+      "alts",
+      "ban",
+      "checkban",
+      "checkmute",
+      "dupeip",
+      "echest",
+      "history",
+      "invsee",
+      "jail",
+      "kick",
+      "mute",
+      "tp",
+      "tppos",
+      "unban",
+      "unjail",
+      "unmute",
+      "vanish",
+      "warn"
+    ],
+    "tier": 21,
+    "own": [
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока",
+        "group": "Наказания"
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока",
+        "group": "Наказания"
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока",
+        "group": "Наказания"
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут",
+        "group": "Наказания"
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение",
+        "group": "Наказания"
+      },
+      {
+        "command": "/kick",
+        "args": "[ник] [причина]",
+        "description": "Кикнуть игрока",
+        "group": "Наказания"
+      },
+      {
+        "command": "/vanish",
+        "args": "",
+        "description": "Режим невидимости",
+        "group": "Модерация"
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепорт к игроку",
+        "group": "Модерация"
+      },
+      {
+        "command": "/tppos",
+        "args": "[x] [y] [z]",
+        "description": "Телепорт по координатам",
+        "group": "Модерация"
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть инвентарь",
+        "group": "Модерация"
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть эндер-сундук",
+        "group": "Модерация"
+      },
+      {
+        "command": "/jail",
+        "args": "[ник] [время]",
+        "description": "Посадить в тюрьму",
+        "group": "Модерация"
+      },
+      {
+        "command": "/unjail",
+        "args": "[ник]",
+        "description": "Выпустить из тюрьмы",
+        "group": "Модерация"
+      },
+      {
+        "command": "/checkban",
+        "args": "[ник]",
+        "description": "Проверить бан",
+        "group": "Модерация"
+      },
+      {
+        "command": "/checkmute",
+        "args": "[ник]",
+        "description": "Проверить мут",
+        "group": "Модерация"
+      },
+      {
+        "command": "/history",
+        "args": "[ник]",
+        "description": "История наказаний",
+        "group": "Модерация"
+      },
+      {
+        "command": "/dupeip",
+        "args": "[ник]",
+        "description": "Связанные аккаунты",
+        "group": "Модерация"
+      },
+      {
+        "command": "/alts",
+        "args": "[ник]",
+        "description": "Список альтов",
+        "group": "Модерация"
+      }
+    ],
+    "perks": [
+      "Наказания ban/mute/warn",
+      "Наблюдение за игроками",
+      "Тюрьма и проверки"
+    ],
+    "commands": [
+      {
+        "command": "/ban",
+        "args": "[ник] [время] [причина]",
+        "description": "Заблокировать игрока",
+        "group": "Наказания"
+      },
+      {
+        "command": "/unban",
+        "args": "[ник] [причина]",
+        "description": "Разблокировать игрока",
+        "group": "Наказания"
+      },
+      {
+        "command": "/mute",
+        "args": "[ник] [время] [причина]",
+        "description": "Заткнуть игрока",
+        "group": "Наказания"
+      },
+      {
+        "command": "/unmute",
+        "args": "[ник] [причина]",
+        "description": "Снять мут",
+        "group": "Наказания"
+      },
+      {
+        "command": "/warn",
+        "args": "[ник] [причина]",
+        "description": "Выдать предупреждение",
+        "group": "Наказания"
+      },
+      {
+        "command": "/kick",
+        "args": "[ник] [причина]",
+        "description": "Кикнуть игрока",
+        "group": "Наказания"
+      },
+      {
+        "command": "/vanish",
+        "args": "",
+        "description": "Режим невидимости",
+        "group": "Модерация"
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепорт к игроку",
+        "group": "Модерация"
+      },
+      {
+        "command": "/tppos",
+        "args": "[x] [y] [z]",
+        "description": "Телепорт по координатам",
+        "group": "Модерация"
+      },
+      {
+        "command": "/invsee",
+        "args": "[ник]",
+        "description": "Посмотреть инвентарь",
+        "group": "Модерация"
+      },
+      {
+        "command": "/echest",
+        "args": "[ник]",
+        "description": "Посмотреть эндер-сундук",
+        "group": "Модерация"
+      },
+      {
+        "command": "/jail",
+        "args": "[ник] [время]",
+        "description": "Посадить в тюрьму",
+        "group": "Модерация"
+      },
+      {
+        "command": "/unjail",
+        "args": "[ник]",
+        "description": "Выпустить из тюрьмы",
+        "group": "Модерация"
+      },
+      {
+        "command": "/checkban",
+        "args": "[ник]",
+        "description": "Проверить бан",
+        "group": "Модерация"
+      },
+      {
+        "command": "/checkmute",
+        "args": "[ник]",
+        "description": "Проверить мут",
+        "group": "Модерация"
+      },
+      {
+        "command": "/history",
+        "args": "[ник]",
+        "description": "История наказаний",
+        "group": "Модерация"
+      },
+      {
+        "command": "/dupeip",
+        "args": "[ник]",
+        "description": "Связанные аккаунты",
+        "group": "Модерация"
+      },
+      {
+        "command": "/alts",
+        "args": "[ник]",
+        "description": "Список альтов",
+        "group": "Модерация"
+      }
+    ]
+  },
+  {
+    "id": "admin",
+    "code": "admin",
+    "name": "Администратор",
+    "kind": "staff",
+    "color": "#FF6B6B",
+    "price": "без доната",
+    "keywords": [
+      "администратор",
+      "admin",
+      "админ",
+      "администрация",
+      "game admin",
+      "гейм админ",
+      "tech admin",
+      "тех админ",
+      "developer",
+      "разработчик",
+      "тех.админ",
+      "tech admin",
+      "тех админ"
+    ],
+    "signature": [
+      "clear",
+      "craft",
+      "deop",
+      "ec",
+      "effect",
+      "enchant",
+      "feed",
+      "fly",
+      "gamemode",
+      "give",
+      "god",
+      "heal",
+      "kit",
+      "lp",
+      "maintenance",
+      "nick",
+      "op",
+      "permissions",
+      "plugins",
+      "prefix",
+      "reload",
+      "restart",
+      "setspawn",
+      "setwarp",
+      "skull",
+      "spawn",
+      "speed",
+      "stop",
+      "tp",
+      "tppos",
+      "warp",
+      "whitelist"
+    ],
+    "tier": 22,
+    "own": [
+      {
+        "command": "/gamemode",
+        "args": "[0-3] [ник]",
+        "description": "Изменить режим игры",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/give",
+        "args": "[ник] [предмет] [кол-во]",
+        "description": "Выдать предмет",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/clear",
+        "args": "[ник]",
+        "description": "Очистить инвентарь",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/effect",
+        "args": "[ник] [эффект] [время]",
+        "description": "Выдать эффект",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/fly",
+        "args": "[ник]",
+        "description": "Включить полёт",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/god",
+        "args": "[ник]",
+        "description": "Режим бога",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/speed",
+        "args": "[ник] [скорость]",
+        "description": "Изменить скорость",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепорт к игроку",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/tppos",
+        "args": "[x] [y] [z]",
+        "description": "Телепорт по координатам",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепорт на спавн",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/setspawn",
+        "args": "",
+        "description": "Установить спавн",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/warp",
+        "args": "[название]",
+        "description": "Телепорт на варп",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Создать варп",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/kit",
+        "args": "[название]",
+        "description": "Выдать набор",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/prefix",
+        "args": "[chat/tab/clear] [ник] [префикс]",
+        "description": "Сменить префикс",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/nick",
+        "args": "[ник/off]",
+        "description": "Сменить ник",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/skull",
+        "args": "[ник]",
+        "description": "Получить голову игрока",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/ec",
+        "args": "[ник]",
+        "description": "Эндер-сундук",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/op",
+        "args": "[ник]",
+        "description": "Выдать оператора",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/deop",
+        "args": "[ник]",
+        "description": "Снять оператора",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/whitelist",
+        "args": "[add/remove/list]",
+        "description": "Управление вайтлистом",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/reload",
+        "args": "",
+        "description": "Перезагрузить сервер",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/restart",
+        "args": "",
+        "description": "Перезапустить сервер",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/stop",
+        "args": "",
+        "description": "Остановить сервер",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/plugins",
+        "args": "",
+        "description": "Список плагинов",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/lp",
+        "args": "[args]",
+        "description": "LuckPerms",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/permissions",
+        "args": "[args]",
+        "description": "Права игроков",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/maintenance",
+        "args": "[on/off]",
+        "description": "Режим обслуживания",
+        "group": "Администрирование"
+      }
+    ],
+    "perks": [
+      "Все права модерации",
+      "Выдача предметов и режимы",
+      "Управление сервером"
+    ],
+    "commands": [
+      {
+        "command": "/gamemode",
+        "args": "[0-3] [ник]",
+        "description": "Изменить режим игры",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/give",
+        "args": "[ник] [предмет] [кол-во]",
+        "description": "Выдать предмет",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/clear",
+        "args": "[ник]",
+        "description": "Очистить инвентарь",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/enchant",
+        "args": "[зачарование] [уровень]",
+        "description": "Зачаровать предмет",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/effect",
+        "args": "[ник] [эффект] [время]",
+        "description": "Выдать эффект",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/fly",
+        "args": "[ник]",
+        "description": "Включить полёт",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/god",
+        "args": "[ник]",
+        "description": "Режим бога",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/heal",
+        "args": "[ник]",
+        "description": "Исцелить игрока",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/feed",
+        "args": "[ник]",
+        "description": "Накормить игрока",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/speed",
+        "args": "[ник] [скорость]",
+        "description": "Изменить скорость",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/tp",
+        "args": "[ник]",
+        "description": "Телепорт к игроку",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/tppos",
+        "args": "[x] [y] [z]",
+        "description": "Телепорт по координатам",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/spawn",
+        "args": "[ник]",
+        "description": "Телепорт на спавн",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/setspawn",
+        "args": "",
+        "description": "Установить спавн",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/warp",
+        "args": "[название]",
+        "description": "Телепорт на варп",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/setwarp",
+        "args": "[название]",
+        "description": "Создать варп",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/kit",
+        "args": "[название]",
+        "description": "Выдать набор",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/prefix",
+        "args": "[chat/tab/clear] [ник] [префикс]",
+        "description": "Сменить префикс",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/nick",
+        "args": "[ник/off]",
+        "description": "Сменить ник",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/skull",
+        "args": "[ник]",
+        "description": "Получить голову игрока",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/ec",
+        "args": "[ник]",
+        "description": "Эндер-сундук",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/craft",
+        "args": "",
+        "description": "Открыть верстак",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/op",
+        "args": "[ник]",
+        "description": "Выдать оператора",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/deop",
+        "args": "[ник]",
+        "description": "Снять оператора",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/whitelist",
+        "args": "[add/remove/list]",
+        "description": "Управление вайтлистом",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/reload",
+        "args": "",
+        "description": "Перезагрузить сервер",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/restart",
+        "args": "",
+        "description": "Перезапустить сервер",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/stop",
+        "args": "",
+        "description": "Остановить сервер",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/plugins",
+        "args": "",
+        "description": "Список плагинов",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/lp",
+        "args": "[args]",
+        "description": "LuckPerms",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/permissions",
+        "args": "[args]",
+        "description": "Права игроков",
+        "group": "Администрирование"
+      },
+      {
+        "command": "/maintenance",
+        "args": "[on/off]",
+        "description": "Режим обслуживания",
+        "group": "Администрирование"
+      }
+    ]
+  },
+  {
+    "id": "owner",
+    "code": "owner",
+    "name": "Владелец",
+    "kind": "staff",
+    "color": "#FFD166",
+    "price": "без доната",
+    "keywords": [
+      "владелец",
+      "owner",
+      "основатель",
+      "founder",
+      "главный",
+      "main owner"
+    ],
+    "signature": [
+      "*",
+      "deop",
+      "lp",
+      "maintenance",
+      "op",
+      "permissions",
+      "restart",
+      "stop",
+      "whitelist"
+    ],
+    "tier": 23,
+    "own": [
+      {
+        "command": "/op",
+        "args": "[ник]",
+        "description": "Выдать оператора",
+        "group": "Владелец"
+      },
+      {
+        "command": "/deop",
+        "args": "[ник]",
+        "description": "Снять оператора",
+        "group": "Владелец"
+      },
+      {
+        "command": "/whitelist",
+        "args": "[add/remove/list]",
+        "description": "Управление вайтлистом",
+        "group": "Владелец"
+      },
+      {
+        "command": "/lp",
+        "args": "[args]",
+        "description": "LuckPerms",
+        "group": "Владелец"
+      },
+      {
+        "command": "/permissions",
+        "args": "[args]",
+        "description": "Права игроков",
+        "group": "Владелец"
+      },
+      {
+        "command": "/maintenance",
+        "args": "[on/off]",
+        "description": "Режим обслуживания",
+        "group": "Владелец"
+      },
+      {
+        "command": "/restart",
+        "args": "",
+        "description": "Перезапустить сервер",
+        "group": "Владелец"
+      },
+      {
+        "command": "/stop",
+        "args": "",
+        "description": "Остановить сервер",
+        "group": "Владелец"
+      },
+      {
+        "command": "*",
+        "args": "",
+        "description": "Полный доступ ко всем командам",
+        "group": "Владелец"
+      }
+    ],
+    "perks": [
+      "Полный доступ",
+      "Управление правами и сервером"
+    ],
+    "commands": [
+      {
+        "command": "/op",
+        "args": "[ник]",
+        "description": "Выдать оператора",
+        "group": "Владелец"
+      },
+      {
+        "command": "/deop",
+        "args": "[ник]",
+        "description": "Снять оператора",
+        "group": "Владелец"
+      },
+      {
+        "command": "/whitelist",
+        "args": "[add/remove/list]",
+        "description": "Управление вайтлистом",
+        "group": "Владелец"
+      },
+      {
+        "command": "/lp",
+        "args": "[args]",
+        "description": "LuckPerms",
+        "group": "Владелец"
+      },
+      {
+        "command": "/permissions",
+        "args": "[args]",
+        "description": "Права игроков",
+        "group": "Владелец"
+      },
+      {
+        "command": "/maintenance",
+        "args": "[on/off]",
+        "description": "Режим обслуживания",
+        "group": "Владелец"
+      },
+      {
+        "command": "/restart",
+        "args": "",
+        "description": "Перезапустить сервер",
+        "group": "Владелец"
+      },
+      {
+        "command": "/stop",
+        "args": "",
+        "description": "Остановить сервер",
+        "group": "Владелец"
+      },
+      {
+        "command": "*",
+        "args": "",
+        "description": "Полный доступ ко всем командам",
+        "group": "Владелец"
+      }
+    ]
+  }
+]

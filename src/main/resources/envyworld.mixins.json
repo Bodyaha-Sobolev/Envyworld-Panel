@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "package": "com.envyworld.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SoundProtectionMixin",
+    "ClientProtectionMixin",
+    "ParticleProtectionMixin",
+    "HudCaptureMixin",
+    "SpectatorNamesMixin",
+    "RemotePointerMixin",
+    "RemoteFramerateMixin",
+    "GameModeKeysMixin",
+    "LevelProjectionMixin",
+    "PlayerModelBoundsMixin",
+    "GameModeSwitcherMixin",
+    "SpectatorGuiMixin",
+    "SpectatorHandMixin",
+    "SpectatorKeysMixin",
+    "MinecraftRemoteInvoker",
+    "RemoteKeyboardInputMixin",
+    "BossHealthOverlayAccessor",
+    "ClientPacketListenerMixin",
+    "EditBoxAccessor",
+    "SkinManagerInvoker",
+    "MenuRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

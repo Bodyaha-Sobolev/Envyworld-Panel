@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "envyworld",
+  "version": "${version}",
+  "name": "Envyworld Panel",
+  "description": "Панель модерации Envyworld: наказания, макросы, предметы, логи и инструменты наблюдателя.",
+  "authors": [
+    "Bodyaha-Sobolev"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/envyworld/icon.png",
+  "environment": "client",
+  "mixins": [
+    "envyworld.mixins.json"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.envyworld.EnvyWorld"
+    ],
+    "client": [
+      "com.envyworld.client.EnvyWorldClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.3"
+  },
+  "suggests": {
+    "fabric-permissions-api-v0": "*"
+  },
+  "contact": {
+    "homepage": "https://github.com/Bodyaha-Sobolev/Envyworld-Panel",
+    "sources": "https://github.com/Bodyaha-Sobolev/Envyworld-Panel",
+    "issues": "https://github.com/Bodyaha-Sobolev/Envyworld-Panel/issues"
+  }
+}

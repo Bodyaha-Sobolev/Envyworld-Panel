@@ -1,0 +1,8 @@
+allprojects {
+ afterEvaluate {
+  tasks.named('runClient') {
+   jvmArgs '-Denvyworld.renderProbe=true'
+   args '--gameDir', file('build/verification/clean-ui/client').absolutePath, '--width', '1920', '--height', '1080'
+  }
+ }
+}

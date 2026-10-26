@@ -1,0 +1,12 @@
+allprojects {
+    afterEvaluate {
+        if (tasks.findByName('clipboardFilesSmoke') != null) return
+        tasks.register('clipboardFilesSmoke', JavaExec) {
+            dependsOn tasks.named('classes')
+            classpath = sourceSets.main.runtimeClasspath
+            mainClass = file('tools/ClipboardFilesSmoke.java').absolutePath
+            jvmArgs '-Djava.awt.headless=true', '--enable-native-access=ALL-UNNAMED'
+            workingDir = projectDir
+        }
+    }
+}
